@@ -53,6 +53,7 @@ namespace AspNetCoreSpa
             //{
             //    services.AddSslCertificate(_hostingEnv);
             //}
+
             services.AddOptions();
 
             services.AddResponseCompression(options =>
